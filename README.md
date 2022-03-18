@@ -1,5 +1,6 @@
 # jabofy
 ## unironically the worst thing i have ever written
+<img src="readme_images/jabofy.png" alt="jabofy" width="500"/></p>
 
 ### what is jabofy?
 jabofy is a python script that takes images with a transparent background and converts them into new images that look like they were rendered using the Project64 Jabo video plugin.
