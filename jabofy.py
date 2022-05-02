@@ -10,7 +10,7 @@ for file in sys.argv[1:]:
     scalewidth = width*2+1
     scaleheight = height*2+1
     bg = Image.new("RGBA", (scalewidth, scaleheight), (0, 0, 0))
-    scaleimage = input.resize([scalewidth, scaleheight], Image.BILINEAR)
+    scaleimage = input.resize([scalewidth, scaleheight], Image.Resampling.BILINEAR)
     
     scaleimage_np = np.array(scaleimage)
     bg_np = np.array(bg)
